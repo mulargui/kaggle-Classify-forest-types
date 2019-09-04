@@ -1,0 +1,4 @@
+Here are notes of ideas explored during the project
+1. Created the basic Keras NN model
+	Accuracy in Keras 82%
+	336 in the leaderboard (0.676 score)
