@@ -2,3 +2,18 @@ Here are notes of ideas explored during the project
 1. Created the basic Keras NN model
 	Accuracy in Keras 82%
 	336 in the leaderboard (0.676 score)
+2. Incremented training data (90%) vs validation (10%)
+	x_train, x_test, y_train, y_test = train_test_split(x, y,test_size=0.1)
+	Accuracy in Keras 82%
+	no improvement - cancelled
+3.Added a second layer to the NN of the same size the first level
+	model.add(Dense(units=num_features, activation='relu', kernel_initializer='normal'))
+	Accuracy in Keras 85%
+4.Added a second layer to the NN of half the size the first level
+	model.add(Dense(units=num_features/2, activation='relu', kernel_initializer='normal'))
+	Accuracy in Keras 83%
+5.Added a second layer to the NN of double the size the first level
+	model.add(Dense(units=num_features*2, activation='relu', kernel_initializer='normal'))
+	Accuracy in Keras 89%
+	341 in the leaderboard (0.71187 score)
+
