@@ -16,12 +16,15 @@ Here are notes of ideas explored during the project
 	model.add(Dense(units=num_features*2, activation='relu', kernel_initializer='normal'))
 	Accuracy in Keras 89%
 	341 in the leaderboard (0.71187 score)
-5.Added a 3 more layers to the NN of the same size the second level
+6.Added a 3 more layers to the NN of the same size the second level (exp. 5)
 	Accuracy in Keras 97%
 	464 in the leaderboard (0.70321 score) which is worst. Overfitting?
-6.Added a 20% dropout between hidden layers
+7.Added a 20% dropout between hidden layers
 	Accuracy in Keras sample - loss: 0.4901 - acc: 0.8008 - val_loss: 0.4953 - val_acc: 0.7953
 	464 in the leaderboard (0.67128 score) which is worst. Overfitting?
-7.Made the hidden layers very wide: 10 times the number of features
+8.Made the hidden layers very wide: 10 times the number of features
 	Accuracy in Keras sample - loss: 0.3853 - acc: 0.8448 - val_loss: 0.4861 - val_acc: 0.8185
 	464 in the leaderboard (0.68662 score) which is worst. Overfitting?
+9.Build a deep NN with 10 hidden layers (double the number of features, exp. 5) and 20% dropout between layers
+	Accuracy in Keras sample - loss: 0.6217 - acc: 0.7475 - val_loss: 0.5988 - val_acc: 0.7735
+	0.63091 score in the leaderboard, which is worst
