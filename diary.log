@@ -14,7 +14,7 @@ Here are notes of ideas explored during the project
 	Accuracy in Keras 83%
 5.Added a second layer to the NN of double the size the first level
 	model.add(Dense(units=num_features*2, activation='relu', kernel_initializer='normal'))
-	Accuracy in Keras 89%
+	Accuracy in Keras sample - loss: 0.2847 - acc: 0.8867 - val_loss: 0.4952 - val_acc: 0.8287
 	341 in the leaderboard (0.71187 score)
 6.Added a 3 more layers to the NN of the same size the second level (exp. 5)
 	Accuracy in Keras 97%
@@ -28,3 +28,12 @@ Here are notes of ideas explored during the project
 9.Build a deep NN with 10 hidden layers (double the number of features, exp. 5) and 20% dropout between layers
 	Accuracy in Keras sample - loss: 0.6217 - acc: 0.7475 - val_loss: 0.5988 - val_acc: 0.7735
 	0.63091 score in the leaderboard, which is worst
+10. Back to exp. 5, which has the best performance and added a 20% dropout between all layers
+	Accuracy in Keras sample - loss: 0.4376 - acc: 0.8205 - val_loss: 0.4711 - val_acc: 0.8158
+11. Like exp. 10, but only dropout before the output layer
+	Accuracy in Keras sample - loss: 0.3358 - acc: 0.8657 - val_loss: 0.4851 - val_acc: 0.8224
+12. Like exp. 10, but only dropout after the input layer
+	Accuracy in Keras sample - loss: 0.4052 - acc: 0.8339 - val_loss: 0.4592 - val_acc: 0.8201
+13. Like exp. 10, but added kernel_constraint
+	Accuracy in Keras sample - loss: 0.4527 - acc: 0.8141 - val_loss: 0.4651 - val_acc: 0.8158
+	no improvement vs 10
