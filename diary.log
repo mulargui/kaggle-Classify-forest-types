@@ -35,5 +35,6 @@ Here are notes of ideas explored during the project
 12. Like exp. 10, but only dropout after the input layer
 	Accuracy in Keras sample - loss: 0.4052 - acc: 0.8339 - val_loss: 0.4592 - val_acc: 0.8201
 13. Like exp. 10, but added kernel_constraint
+	model.add(Dense(units=num_features, activation='relu', kernel_initializer='normal', input_dim=num_features, kernel_constraint=MaxNorm(3)))
 	Accuracy in Keras sample - loss: 0.4527 - acc: 0.8141 - val_loss: 0.4651 - val_acc: 0.8158
 	no improvement vs 10
