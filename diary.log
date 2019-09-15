@@ -38,3 +38,13 @@ Here are notes of ideas explored during the project
 	model.add(Dense(units=num_features, activation='relu', kernel_initializer='normal', input_dim=num_features, kernel_constraint=MaxNorm(3)))
 	Accuracy in Keras sample - loss: 0.4527 - acc: 0.8141 - val_loss: 0.4651 - val_acc: 0.8158
 	no improvement vs 10
+14. Exp. 5 (best performing) doubling the number of first layer units
+	model.add(Dense(units=num_features*2, activation='relu', kernel_initializer='normal', input_dim=num_features))
+	Accuracy in Keras sample - loss: 0.2235 - acc: 0.9136 - val_loss: 0.5131 - val_acc: 0.8390
+	0.71393 in the leaderboard - better than exp. 5!
+15. Added 20% dropout to exp. 14
+	Accuracy in Keras sample - loss: 0.3079 - acc: 0.8738 - val_loss: 0.4411 - val_acc: 0.8433
+	0.72000 in the leaderboard - better than exp. 14!
+16. added kernel constraints following academic papers
+	Accuracy in Keras sample - loss: 0.3235 - acc: 0.8708 - val_loss: 0.4293 - val_acc: 0.8479
+	0.63 in the leaderboard - cancelled
