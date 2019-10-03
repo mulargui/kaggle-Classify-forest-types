@@ -50,3 +50,6 @@ Here are notes of ideas explored during the project
 	0.63 in the leaderboard - cancelled
 17. Clean up and compacted code of 15. Created ExploreData separately.
 	No new data.
+======================================================================================
+20. First attempt to use XGBoost. Accuracy: 74.54%
+	0.58569 in the leaderboard - poor!
