@@ -48,3 +48,5 @@ Here are notes of ideas explored during the project
 16. added kernel constraints following academic papers
 	Accuracy in Keras sample - loss: 0.3235 - acc: 0.8708 - val_loss: 0.4293 - val_acc: 0.8479
 	0.63 in the leaderboard - cancelled
+17. Clean up and compacted code of 15. Created ExploreData separately.
+	No new data.
