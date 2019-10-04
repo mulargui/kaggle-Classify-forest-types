@@ -1,3 +1,22 @@
+When I started planning for experiment 21 I discovered this dataset was used before at Kaggle in a competition and also there is literature available online. Adding this info at the top of the diary.
+Some links in no special order
+
+https://archive.ics.uci.edu/ml/datasets/Covertype
+https://ieeexplore.ieee.org/document/7154873
+https://www.kaggle.com/c/forest-cover-type-prediction
+
+https://www.kaggle.com/kwabenantim/forest-cover-feature-engineering
+https://www.kaggle.com/jakelj/basic-ensemble-model
+https://www.kaggle.com/arthurtok/introduction-to-ensembling-stacking-in-python
+https://rstudio-pubs-static.s3.amazonaws.com/160297_f7bcb8d140b74bd19b758eb328344908.html
+
+https://mlwave.com/kaggle-ensembling-guide/
+https://www.kaggle.com/c/ieee-fraud-detection/discussion/108575
+https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard
+https://www.kaggle.com/shahules/tackling-class-imbalance
+
+==================================================================================
+
 Here are notes of ideas explored during the project
 1.Created the basic Keras NN model
 	Accuracy in Keras 82%
@@ -48,8 +67,9 @@ Here are notes of ideas explored during the project
 16. added kernel constraints following academic papers
 	Accuracy in Keras sample - loss: 0.3235 - acc: 0.8708 - val_loss: 0.4293 - val_acc: 0.8479
 	0.63 in the leaderboard - cancelled
-17. Clean up and compacted code of 15. Created ExploreData separately.
+17. Cleaned up and compacted code of 15. Created ExploreData separately.
 	No new data.
 ======================================================================================
 20. First attempt to use XGBoost. Accuracy: 74.54%
 	0.58569 in the leaderboard - poor!
+21. Discovered more info about this dataset online
