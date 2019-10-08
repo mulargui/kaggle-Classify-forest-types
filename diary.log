@@ -75,3 +75,6 @@ Here are notes of ideas explored during the project
 20. First attempt to use XGBoost. Accuracy: 74.54%
 	0.58569 in the leaderboard - poor!
 21. Discovered more info about this dataset online
+22. Based on https://douglas-fraser.com/forest_cover_management.pdf pages 21,22 I'm adding 2 cathegorical features embedded in soiltype ELUs first and second digit classification
+	Accuracy: 76.46%
+	0.59955  in the leaderboard - very little improvement
