@@ -82,3 +82,6 @@ Here are notes of ideas explored during the project
 23. Based on several articles reversed OneHotEncoding in several features to categorical features
 	Accuracy: 74.87%
 	0.59721 in the leaderboard - no improvement
+24. Added plenty of features inspired by other kernels.V10 in kaggle
+	Accuracy:  79.83%
+	0.58623 in the leaderboard - no improvement
