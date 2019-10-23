@@ -98,3 +98,5 @@ Here are notes of ideas explored during the project
 	0.81944 in the leaderboard - .6 percent improvement!!!
 29. Added a new feature to fix Hillshade_3pm. V5 in kaggle
 	0.81811 in the leaderboard - no improvement
+30. Added KNN classifier to the ensemble. V6 in kaggle
+	0.82019 in the leaderboard - small improvement!!!
