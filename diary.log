@@ -96,3 +96,5 @@ Here are notes of ideas explored during the project
 	It generates an error keeping here for the future.
 28. Added a new feature based on unsupervised learning. V4 in Kaggle
 	0.81944 in the leaderboard - .6 percent improvement!!!
+29. Added a new feature to fix Hillshade_3pm. V5 in kaggle
+	0.81811 in the leaderboard - no improvement
