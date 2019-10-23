@@ -100,3 +100,5 @@ Here are notes of ideas explored during the project
 	0.81811 in the leaderboard - no improvement
 30. Added KNN classifier to the ensemble. V6 in kaggle
 	0.82019 in the leaderboard - small improvement!!!
+31. Added a new feature about rockyness of . V7 in kaggle
+	0.81801in the leaderboard - no improvement
