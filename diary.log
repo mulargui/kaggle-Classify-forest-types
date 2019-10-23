@@ -90,5 +90,7 @@ Here are notes of ideas explored during the project
 	Accuracy in Keras sample - loss: 0.1600 - acc: 0.9382 - val_loss: 0.4902 - val_acc: 0.8657
 	0.74767 in the leaderboard - 2 percent improvement
 ======================================================================================
-26. Used an ensemble instead of NN. V1 in kaggle 
+26. Used an ensemble instead of NN. V2 in kaggle 
 	0.81335 in the leaderboard - 6.5 percent improvement!!!
+27. Added XGBoost to the ensemble and some code refactoring
+	It generates an error keeping here for the future.
