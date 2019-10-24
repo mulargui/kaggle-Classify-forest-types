@@ -106,3 +106,5 @@ Here are notes of ideas explored during the project
 	0.81905 in the leaderboard - no improvement
 33. Added HistGradientBoostingClassifier to the ensemble. V9 in kaggle
 	0.81805 in the leaderboard - no improvement
+34. Removed randonmization when reversing one hot encoding. V10 in kaggle
+	0.81538 in the leaderboard - no improvement
