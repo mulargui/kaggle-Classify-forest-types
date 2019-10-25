@@ -108,3 +108,5 @@ Here are notes of ideas explored during the project
 	0.81805 in the leaderboard - no improvement
 34. Removed randonmization when reversing one hot encoding. V10 in kaggle
 	0.81538 in the leaderboard - no improvement
+35. Moved GM to the end of feature engineering. V11 in kaggle
+	0.81652 in the leaderboard - no improvement
