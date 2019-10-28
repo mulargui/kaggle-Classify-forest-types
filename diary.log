@@ -110,3 +110,5 @@ Here are notes of ideas explored during the project
 	0.81538 in the leaderboard - no improvement
 35. Moved GM to the end of feature engineering. V11 in kaggle
 	0.81652 in the leaderboard - no improvement
+36. Refactored all the feature engineering code and added a bunch of classifiers all at once. V12 in kaggle
+	0.81494 in the leaderboard - no improvement
