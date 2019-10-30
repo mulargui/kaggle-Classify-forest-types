@@ -112,3 +112,5 @@ Here are notes of ideas explored during the project
 	0.81652 in the leaderboard - no improvement
 36. Refactored all the feature engineering code and added a bunch of classifiers all at once. V12 in kaggle
 	0.81494 in the leaderboard - no improvement
+37. Added a few more features engineered and adjusted a GM param. V13 in kaggle
+	0.81415 in the leaderboard - no improvement
