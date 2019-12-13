@@ -116,3 +116,6 @@ Here are notes of ideas explored during the project
 	0.81415 in the leaderboard - no improvement
 38. Eliminated nor relevant features. V14 in kaggle
 	0.46243 in the leaderboard - horrible!!
+39. Cleaned up the feature selection. I have no enough time to submit new code for feature selection. V15 in kaggle
+	0.81485 in the leaderboard - no improvement
+Competition closed.
